@@ -1,0 +1,168 @@
+div {
+	display:block;
+	height: 100%; /* Making sure that div stylings like pull-left and pull-right don't mess up other layouts */
+}
+
+.pull-middle {
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+/* includes background image for half page */
+#container {
+	background-color: white;
+	background-image: url('../img/1200x700.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 15%;
+}
+
+#header {
+	width: 100%;
+}
+
+/* styling for network navigation elements */
+#network {
+	background-color:#bbbbbb;
+	height: 30px;
+	font-size: 11px;
+	text-align: center;
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* styling for network navigation links */
+#network li > a {
+	padding: 6px 2px; /* A little tweaking to get into the middle */
+}
+
+/* Aligning the first element of nav list */
+#network li.heading{
+	padding-top: 5px;
+	padding-bottom: 6px;
+	padding-right:2px;
+}
+
+#masthead {
+	background-color:#aaaaaa;
+	height: 80px;
+	line-height: 80px;
+}
+
+#masthead a {
+	font-size: 70px;
+	font-weight: 200;
+	text-decoration: none;
+	color: black;
+}
+
+#nav {
+	background-color:#000000;
+	height: 30px;
+	color: white;
+	line-height: 30px;
+}
+
+#nav li > a {
+	color: white;
+	padding: 6px 2px; /* Little tweaking to get it in the middle */
+}
+
+#nav li > a:hover {
+	color: black;
+	background-color: white;
+}
+
+#leaderboard {
+	margin: 20px auto;
+	width: 720px;
+	height: 90px;
+	border: 1px solid black;
+	overflow:hidden;
+}
+
+.main {
+	margin: 0 auto;
+}
+
+.river {
+	border: 1px solid #bbbbbb;
+	overflow: hidden;
+	padding: 14px;
+	width: 954px;
+	background-color: white;
+}
+
+.post {
+	width: 640px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.category {
+	font-style: italic;
+	width: 208px;
+}
+
+.desc {
+	width: 418px;
+}
+
+.desc-header {
+	font-weight: 200;
+	font-size: large;
+}
+
+.desc-meta {
+	font-style: italic;
+	font-size: smaller;
+}
+
+/* bootstrap container-fluid adds padding. This is here to remove it */
+.nopad {
+	padding: 0;
+}
+
+#footer .across-network {
+	background-color: #aaaaaa;
+}
+
+#footer .stories {
+	width:300px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+#footer .stories > .stories-header {
+	font-size: 48px;
+	font-weight: 200
+}
+
+#footer .stories a {
+	text-decoration: none;
+	color: black;
+}
+
+#footer .stories > .stories-content {
+	padding: 15px 0;
+}
+
+#footer .footer-bar {
+	background-color: #000000;
+	clear:both;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+}
+
+#footer .footer-bar li > a {
+	color: white;
+	padding: 15px 5px;
+}
+
+#footer .footer-bar li > a:hover {
+	color: black;
+	background-color: white;
+}
